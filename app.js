@@ -8,4 +8,18 @@ function getMean() {
     console.log(mean);
 }
 
-getMean(1,2,3,4,5,6)
+function getMin() {
+    let arr = Object.values(arguments);
+    let arrMin = _.min(arr);
+    console.log(arrMin)
+}
+
+function getMax() {
+    let arr = Object.values(arguments);
+    let arrMax = _.max(arr);
+    console.log(arrMax)
+}
+
+getMean(1,2,3,4,5,6);
+getMin(1,2,3,4,5,6);
+getMax(1,2,3,4,5,6);
